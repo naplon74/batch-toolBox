@@ -7,11 +7,3 @@
 
 > [!NOTE]
 > If you are looking for a simpler version for a full Windows instlation that doesnt use the registry see [os_version_local.bat](../system_info/README.md#os_version_local.bat).
-
-
-
----
-
-
-## os_version_local.bat (put somewhere else)
-#### Script that return the Windows version usefull if you want your project to run on modern Windows version. (Does not wirk in a PE* environment)
