@@ -2,8 +2,6 @@
 
 rem This will just tells you the Windows version WindowsPE is running on. So pretty useless I admit. I guess it can be used to check if you are running on Windows 10 or 11, but that is about it. I will probably remove this file in the future.
 rem Version table can be found here https://learn.microsoft.com/en-us/windows/win32/sysinfo/operating-system-version
-
-title Super Windows Version Finder +++++++ 
 setlocal
 
 rem Get full VER output 

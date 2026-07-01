@@ -8,3 +8,5 @@ rem Check HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion if for
 reg load HKLM\OFFLINE C:\Windows\System32\Config\SOFTWARE
 reg query "HKLM\OFFLINE\Microsoft\Windows NT\CurrentVersion" /v ProductName
 reg unload HKLM\OFFLINE
+
+pause>nul
