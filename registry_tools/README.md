@@ -7,3 +7,27 @@
 
 > [!NOTE]
 > If you are looking for a simpler version for a full Windows instlation that doesnt use the registry see [os_version_local.bat](../system_info/README.md#os_version_local.bat).
+
+<br>
+
+## export_registry_key.bat
+### Export any Windows registry key to a designated .reg file.
+
+> [!IMPORTANT]
+> This script require administrator privileges to run.
+
+<br>
+
+## import_registry_key.bat
+### Import any Windows registry key from a designated .reg file.
+
+> [!IMPORTANT]
+> This script require administrator privileges to run.
+
+<br>
+
+## registry_search.bat
+### Search anything contained in registry Keys/Values.
+
+> [!IMPORTANT]
+> This script require administrator privileges to run.

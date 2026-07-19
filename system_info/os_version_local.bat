@@ -53,7 +53,5 @@ if not defined VERSION (
 )
 
 echo.
-echo If nothing returned above, idk what version you are running on, but it is likely very old or very weird. If somehow you are running this on Linux you have issue. I doubt this is possible anyway.
-
 endlocal
 pause>nul
