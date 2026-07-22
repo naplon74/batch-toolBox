@@ -6,9 +6,12 @@
 
 <p>The only batch script lib you'll ever need</p>
 
+Batch toolbox is a collection of Windows batch scripts organized by category. Each folder contains scripts for one area of system administration or utilities.
+
 </div>
 
-Batch toolbox is a collection of Windows batch scripts organized by category. Each folder contains scripts for one area of system administration or utilities.
+> [!CAUTION]
+> Disclaimer: I am not responsible for any misuse, data loss, system damage, or other issues caused by using these scripts. Use them at your own risk.
 
 | Folder | Purpose |
 | --- | --- |
@@ -30,6 +33,7 @@ Batch toolbox is a collection of Windows batch scripts organized by category. Ea
 | users | User account utilities. |
 | windows_features | Windows feature and optional component utilities. |
 
-Read the README file in each folder before running any script.
+> [!TIP]
+> Read the README file in each folder before running any script.
 
-Disclaimer: I am not responsible for any misuse, data loss, system damage, or other issues caused by using these scripts. Use them at your own risk.
+
