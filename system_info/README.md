@@ -1,13 +1,16 @@
-# System Info
+﻿# System Info
 
-## os_version_local.bat
-#### Script that return the Windows version (and the build number) usefull if you want your project to run on modern Windows version. (Does not work in a PE* environment)
+This folder contains scripts for gathering system and hardware information.
 
-> [!NOTE]
-> See more at [https://learn.microsoft.com/en-us/windows/win32/sysinfo/operating-system-version](https://learn.microsoft.com/en-us/windows/win32/sysinfo/operating-system-version)
+Scripts:
+- os_version_local.bat: Return the Windows version and build number.
+- check_secureBoot_Status.bat: Check whether UEFI secure boot is enabled.
+- BIOS_info.bat: Return BIOS information.
+- cpu_info.bat: Return CPU information such as manufacturer, model, and core count.
+- mobo_info.bat: Return motherboard information such as manufacturer, model, and serial number.
+- ram_info.bat: Return RAM information such as speed, memory type, and slot usage.
+- tpm_info.bat: Return TPM information.
 
-## check_secureBoot_Status.bat
-#### Check wether UEFI secure boot is enabled or not.
+Some scripts may require administrator privileges.
 
-> [!NOTE]
-> Only work on UEFI system. Won't have effect on BIOS system.
+Disclaimer: I am not responsible for any misuse, data loss, system damage, or other issues caused by using these scripts. Use them at your own risk.

@@ -1,33 +1,13 @@
-# Script that interacts with the Windows registry
+﻿# Registry tools
 
-## offline_os_version_reg.bat
-#### Script that load the registry key that holds the Windows version and returns it. Works in both offline (PE) and online registry.* 
+This folder contains registry-related scripts.
 
-<p><i>*"Offline" registry often called PE stand for Preinstlation envirnoment, this is tipically a Windows instalation iso, its before you install the system. On the other hand an "online" registry is a fully installed Windows system.</i></p>
+Scripts:
+- offline_os_version_reg.bat: Load an offline registry hive to read Windows version information.
+- export_registry_key.bat: Export a registry key to a .reg file.
+- import_registry_key.bat: Import a registry key from a .reg file.
+- registry_search.bat: Search for keys or values in the Windows registry.
 
-> [!NOTE]
-> If you are looking for a simpler version for a full Windows instlation that doesnt use the registry see [os_version_local.bat](../system_info/README.md#os_version_local.bat).
+Some scripts require administrator privileges.
 
-<br>
-
-## export_registry_key.bat
-### Export any Windows registry key to a designated .reg file.
-
-> [!IMPORTANT]
-> This script require administrator privileges to run.
-
-<br>
-
-## import_registry_key.bat
-### Import any Windows registry key from a designated .reg file.
-
-> [!IMPORTANT]
-> This script require administrator privileges to run.
-
-<br>
-
-## registry_search.bat
-### Search anything contained in registry Keys/Values.
-
-> [!IMPORTANT]
-> This script require administrator privileges to run.
+Disclaimer: I am not responsible for any misuse, data loss, system damage, or other issues caused by using these scripts. Use them at your own risk.
